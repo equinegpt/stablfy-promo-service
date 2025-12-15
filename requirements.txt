@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+sqlalchemy>=2.0
+psycopg2-binary  # or asyncpg / psycopg3 if you’re using that stack
+python-dotenv    # optional, if you load env from file
